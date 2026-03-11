@@ -10,7 +10,7 @@ const app = express();
 // Middlewares
 // On autorise localhost pour tes tests et ta future URL Vercel
 app.use(cors({
-  origin: ["http://localhost:5173", "mon-portfolio-l2vk.vercel.app"],
+  origin: ["https://mon-portfolio-l2vk.vercel.app", "http://localhost:5173"],
   credentials: true
 }));
 
